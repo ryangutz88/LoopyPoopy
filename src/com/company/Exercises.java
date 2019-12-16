@@ -70,7 +70,37 @@ public class Exercises {
             System.out.println();
         }
     }
-    public static void dollarsAndStars(){
-
+    public static void dollarsAndStars() {
+        int b = 0;
+        int e = 0;
+        int g = 0;
+        int j = 0;
+        int l = 0;
+        for (int a = 1; a <= 7; a++) {
+            for (int c = 0; c < b; c++) {
+                System.out.print("*");
+            }
+            b = b + 2;
+            for (int d=7; d>e; d--){
+                System.out.print("$");
+            }
+            e = e + 1;
+            for (int f=14; f>g; f--){
+                System.out.print("*");
+            }
+            g = g + 2;
+            for (int h=7; h>j; h--){
+                System.out.print("$");
+            }
+            j = j + 1;
+            for (int k = 0; k < l; k++) {
+                System.out.print("*");
+            }
+            l = l + 2;
+            System.out.println();
+        }
     }
+
+
 }
+
